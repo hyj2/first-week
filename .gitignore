@@ -1,0 +1,58 @@
+# maven ignore
+target/
+bin/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.versionsBackup
+LOG_HOME_IS_UNDEFINED
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.springBeans
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+/log/
+/logs/
+spy.log
+#*.log
+#*.log.*
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#springBeans
+.factorypath
+application.pid
+
+#log/
+# not ignore file
+!/core/src/main/java/com/waha/core/modules/*
+security-service/src/main/resources/._application-serviceLocal.yml
+security-service/src/main/resources/application-serviceLocal.yml
